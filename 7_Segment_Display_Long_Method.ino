@@ -1,5 +1,5 @@
   int DP=0,A=1,B=2,C=3,D=4,E=5,F=6,G=7;
-  
+  int del=500
 void setup() {
 
   
@@ -17,7 +17,7 @@ void loop() {
       digitalWrite(F, HIGH);      
       digitalWrite(G, LOW);
       digitalWrite(DP, HIGH);           
-      delay(1000);
+      delay(del);
  //1                            
       digitalWrite(A, LOW);
       //digitalWrite(B, HIGH);      
@@ -27,7 +27,7 @@ void loop() {
       digitalWrite(F, LOW);      
       digitalWrite(G, LOW);
       digitalWrite(DP, LOW);           
-      delay(1000);
+      delay(del);
  //2    
       digitalWrite(A, HIGH);
       //digitalWrite(B, HIGH);      
@@ -37,7 +37,7 @@ void loop() {
       //digitalWrite(F, HIGH);      
       digitalWrite(G, HIGH);
       digitalWrite(DP, HIGH);           
-      delay(1000);
+      delay(del);
  //3                            
       //digitalWrite(A, HIGH);
       //digitalWrite(B, HIGH);      
@@ -47,7 +47,7 @@ void loop() {
       //digitalWrite(F, HIGH);      
       digitalWrite(G, HIGH);
       digitalWrite(DP, LOW);           
-      delay(1000);
+      delay(del);
  //4                       
       digitalWrite(A, LOW);
       digitalWrite(B, HIGH);      
@@ -57,7 +57,7 @@ void loop() {
       digitalWrite(F, HIGH);      
       digitalWrite(G, HIGH);
       digitalWrite(DP, HIGH);           
-      delay(1000);
+      delay(del);
   //5
       digitalWrite(A, HIGH);
       digitalWrite(B, LOW);      
@@ -67,7 +67,7 @@ void loop() {
       digitalWrite(F, HIGH);      
       digitalWrite(G, HIGH);
       digitalWrite(DP, LOW);           
-      delay(1000);                       
+      delay(del);                       
   //6                           
       digitalWrite(A, HIGH);
       digitalWrite(B, LOW);      
@@ -77,7 +77,7 @@ void loop() {
       digitalWrite(F, HIGH);      
       digitalWrite(G, HIGH);
       digitalWrite(DP, HIGH);           
-      delay(1000);                       
+      delay(del);                       
   //7
       digitalWrite(A, HIGH);
       digitalWrite(B, HIGH);      
@@ -87,7 +87,7 @@ void loop() {
       digitalWrite(F, LOW);      
       digitalWrite(G, LOW);
       digitalWrite(DP, LOW);           
-      delay(1000);                       
+      delay(del);                       
   //8
       digitalWrite(A, HIGH);
       digitalWrite(B, HIGH);      
@@ -97,7 +97,7 @@ void loop() {
       digitalWrite(F, HIGH);      
       digitalWrite(G, HIGH);
       digitalWrite(DP, HIGH);           
-      delay(1000);
+      delay(del);
    //9                       
       digitalWrite(A, HIGH);
       digitalWrite(B, HIGH);      
@@ -107,7 +107,7 @@ void loop() {
       digitalWrite(F, HIGH);      
       digitalWrite(G, HIGH);
       digitalWrite(DP, LOW);           
-      delay(1000);                       
+      delay(del);                       
       
         
  
